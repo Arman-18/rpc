@@ -1,5 +1,7 @@
-def main():
-    print("Welcome to Rock, Paper, Scissors Game!")
+def explain_rules():
+    print("Rules: Rock beats Scissors, Scissors beats Paper, Paper beats Rock.")
+    print("If both players choose the same, it's a tie.")
 
-if __name__ == "__main__":
-    main()
+def main():
+    print("Welcome to the Rock, Paper, Scissors Game!")
+    explain_rules()
